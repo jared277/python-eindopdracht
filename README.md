@@ -4,4 +4,5 @@ eindopdracht van periode 1
  if statements
  match cases
  loops
- en lijsten
+ lijsten
+ en variabelen
