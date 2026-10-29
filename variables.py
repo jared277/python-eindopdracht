@@ -4,7 +4,7 @@ aantal1 = 10
 aantalVerkocht1 = 3
 inkoopPrijs1 = 15
 winstBrood1 = 15
-
+#winst bij brood is dus het geld dat je verdient heb door verkoop - geld dat je spendeert om het product weer intekopen
 product2 = "soep"
 prijsProduct2 = 10 
 aantal2 = 15
@@ -26,16 +26,18 @@ totaleInkomen = (
 )
 
 totaalwinst = winstBrood1 + winstsoep2 + winstwc3
-totaalVerkocht = aantalVerkocht1 + aantalVerkocht2 + aantalVerkocht3
+totaalVerkocht = aantalVerkocht1 + aantalVerkocht2 + aantalVerkocht3  # hier zitten alle totalen van alles
 totaalomzet = totaleInkomen - totaalwinst
+
+
 print(f"wij verkopen {product1}, {product2} en {product3}")
 print(f"prijs per brood is {prijsProduct1} euro ,prijs van soep is {prijsProduct2} euro , en prijs van de wc's is {prijsProduct3} euro")
-print(f"we hebben {aantalVerkocht1} brood verkocht, {aantalVerkocht2} soepen verkocht,en  {aantalVerkocht3} wc's verkocht")
+print(f"we hebben {aantalVerkocht1} brood verkocht, {aantalVerkocht2} soepen verkocht, en  {aantalVerkocht3} wc's verkocht")
 print(f"totaal verkochte producten is {totaalVerkocht}")
 
 
       
 
 print(f" wij hebben intotaal {totaleInkomen} Euro verdient")
-print(f" wij hebben {totaalwinst} euro gepspendeerd aan inkoopprijzen")
-print(f"dus dan hebben wij hebben intotaal {totaalomzet} euro winst gemaakt")
+print(f" wij hebben {totaalomzet} euro gepspendeerd aan inkoopprijzen")
+print(f" dus dan hebben wij hebben intotaal {totaalwinst} euro winst gemaakt")
